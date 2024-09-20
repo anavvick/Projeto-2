@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Simulação de Navegação</title>
+</head>
+
+<body>
+    <center>
+        <br>
+        <div id="page1" class="page active">
+            <h1>Conhecendo Manaus</h1>
+            <br>
+            <img src="https://portaldoparente.com.br/wp-content/uploads/2021/06/WhatsApp-Image-2021-06-07-at-17.01.59.jpeg"
+                width="850px" height="590px" alt="">
+            <br>
+            <br>
+            <button onclick="showPage('page2')">Praia da Ponta Negra</button>
+            <button onclick="showPage('page3')">Arena da Amazônia</button>
+        </div>
+
+
+        <div id="page2" class="page">
+            <h1>Praia da ponta negra</h1>
+            <br>
+            <img src="https://cdn-hweb.hsystem.com.br/5873d325c19a4207cc40b87c/07e1f8e2fdd64088bccc5ac8f8e9a306.jpg"
+                alt="">
+            <br>
+            <br>
+            <p>A Praia da Ponta Negra é uma praia urbana do município de Manaus, capital do estado do Amazonas. Localizada às margens do rio Negro, no bairro homônimo, é um dos principais cartões-postais da cidade</p>
+            <br>
+            <button onclick="showPage('page1')">Voltar para a página Principal</button>
+            <button onclick="showPage('page4')">Ver algumas paisagens!!!</button>
+        </div>
+
+
+        <div id="page3" class="page">
+            <h1>Arena da Amazônia </h1>
+            <br>
+            <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/3d/21/3d/photo0jpg.jpg?w=1200&h=-1&s=1" width="850px"
+                height="590px" alt="">
+            <br>
+            <br>
+            <p>A Arena da Amazônia – Vivaldo Lima, ou simplesmente Arena da Amazônia, é um estádio multiuso localizado na cidade de Manaus, capital do Amazonas. Foi construída no mesmo local antes ocupado pelo Estádio Vivaldo Lima.
+            </p>
+            <br>
+            <button onclick="showPage('page1')">Voltar para a Página Principal</button>
+            <button onclick="showPage('page5')">Ver algumas paisagens!!!</button>
+        </div>
+
+
+        <div id="page4" class="page">
+            <h1>Paisagens da Praia da Ponta Negra</h1>
+            <br>
+            <div id="ponta negra">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/7/76/Praia_da_Ponta_Negra_%28Manaus%29.jpg"
+                    width="350px" height="290px" alt="">
+                <img src="https://cdn-hweb.hsystem.com.br/5873d325c19a4207cc40b87c/669bfd9f06b94d87a52eb39937e5c6cb.jpg"
+                    width="350px" height="290px" alt="">
+                <br><br>
+                <img src="https://www.estadopolitico.com.br/wp-content/uploads/2023/01/52599886250_4d964fedbb_c.jpg"
+                    width="350px" height="290px" alt="">
+                <img src="https://t4.ftcdn.net/jpg/05/09/82/05/360_F_509820583_UG7lOREP0dtvUaagRWYeFeYTY01S7LFT.jpg"
+                    width="350px" height="290px" alt="">
+            </div>
+            <br>
+            <button onclick="showPage('page1')">Voltar para a Página Principal</button>
+        </div>
+
+
+        <div id="page5" class="page">
+            <h1>Paisagens da Arena </h1>
+            <br>
+            <img src="https://s2-g1.glbimg.com/oaW_Rgkk0VZYG49GdUoZK7coEsU=/0x0:2560x1621/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/8/F/xA3b70QIqAWHLYDhuVaw/arena-amazonia-grandes-eventos-augustto-albuquerque-fabrica-eventos.jpg"
+                width="350px" height="290px" alt="">
+            <img src="https://i.superesportes.com.br/PUdVbVGoj4h0wZB6inKVPUUuFXg=/smart/imgsapp.mg.superesportes.com.br/app/noticia_126420360808/2016/09/04/349646/20160904102952785683a.jpg"
+                width="350px" height="290px" alt="">
+            <br><br>
+            <img src="https://jpimg.com.br/uploads/2017/04/1332445712-arena-amazonia-2-1024x671.jpg"
+                width="350px" height="290px" alt="">
+            <img src="https://segundoasegundo.com.br/wp-content/uploads/2023/12/Wilson-Lima-destaca-que-Estado-deu-inicio-a-preparacao-da-Arena-do-Amazonia-para-receber-Flamengo-e-AudaxFOTOS_-Arquivos_Secom.jpg" width="350px" height="290px"
+                alt="">
+            <br><br>
+            <button onclick="showPage('page1')">Voltar para a Página Principal</button>
+        </div>
+    </center>
+</body>
+
+</html>
